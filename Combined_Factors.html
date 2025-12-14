@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light"><img src="https://unsplash.it/30/30" class="mr-2"><a
+            class="navbar-brand" href="#">Combined Factors</a><button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="./Index.html">Chicago Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Chicagohtmlcrimerates.html">Crime</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Education_in_Chicago.html">Education</a></li>
+                
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Menu Item</a><a class="dropdown-item"
+                            href="#">Menu Item</a><a class="dropdown-item" href="#">Menu Item</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Menu Item</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" id="bsr-wrapper">
+        <h1>Crime and education, whats their overlap...?</h1>
+        <p>By looking at the data from the two components families are able to get a clear picture of what each zone can offer. In terms of security and the promess of a good education. </p>
+        <embed src="./crime-grad-bar-viz-embed-div.html"
+          type="text/html" height="700" width="1000" />
+          <embed src="./crime-grad-scatter-viz-embed-div.html"
+          type="text/html" height="700" width="1000" />
+        <div class='py-3 my-4'></div>
+        <div class="row">
+            <div class="col-md-9">
+                <h2>Takeaways</h2>
+                <p> While every family needs vary, one thing is clear everyone wants their kids to be safe, without having to compromise their education. Thats why we compared how both factors were related to be able to find the best suited area so no family has to compromise anything. Due to their high reading levels, garduation rates and relatively low crime North Center, Morgan Park and Riverdale are ideal for upcoming families. </p>
+            </div>
+            <div class="col"><img src="https://www.shutterstock.com/image-photo/happy-asian-family-two-children-600nw-2078480329.jpg"
+                    class="img-fluid mr-auto d-block border-0 rounded-0 "></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
